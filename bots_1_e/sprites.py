@@ -22,7 +22,7 @@ class Bot:
     botnumber = 16
     def __init__(self, xpos, ypos, filename, screen, gen=None):
         if gen == None:
-            self.genom = [1] * Bot.genomsize
+            self.genom = [8] * Bot.genomsize
         else:
             self.genom = list(gen)
         self.energy = 90
